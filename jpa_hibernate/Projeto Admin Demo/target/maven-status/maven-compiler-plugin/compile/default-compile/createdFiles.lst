@@ -1,0 +1,5 @@
+entities/Produto.class
+entities/Pessoa.class
+models/ProdutoModel.class
+models/PessoaModel.class
+demo/AdministrativoApp.class

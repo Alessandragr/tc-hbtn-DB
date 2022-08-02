@@ -14,6 +14,8 @@ public class Pessoa implements Serializable {
     @Column
     private Date DataNascimento;
 
+    private int idade;
+
     public int getId() {
         return id;
     }
@@ -52,5 +54,13 @@ public class Pessoa implements Serializable {
 
     public void setDataNascimento(Date dataNascimento) {
         DataNascimento = dataNascimento;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
     }
 }

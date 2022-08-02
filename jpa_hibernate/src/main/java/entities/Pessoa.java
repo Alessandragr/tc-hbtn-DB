@@ -12,7 +12,7 @@ public class Pessoa implements Serializable {
     @Column
     private String cpf;
     @Column
-    private int DataNascimento;
+    private Date DataNascimento;
 
     public int getId() {
         return id;
@@ -46,11 +46,11 @@ public class Pessoa implements Serializable {
         this.cpf = cpf;
     }
 
-    public int getDataNascimento() {
+    public Date getDataNascimento() {
         return DataNascimento;
     }
 
-    public void setDataNascimento(int dataNascimento) {
+    public void setDataNascimento(Date dataNascimento) {
         DataNascimento = dataNascimento;
     }
 }

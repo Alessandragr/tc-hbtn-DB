@@ -1,0 +1,6 @@
+entities/Aluno.class
+entities/Curso.class
+entities/Professor.class
+entities/Telefone.class
+entities/MaterialCurso.class
+entities/Endereco.class
